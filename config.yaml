@@ -122,7 +122,7 @@ params:
     button:
       enable: true
       name: "CV"
-      url: "/CV THEO BLANCHARD.pdf"
+      url: "/public/CV THEO BLANCHARD.pdf"
       download: false
 
 
@@ -245,7 +245,7 @@ params:
     title: Projets
     items:
       - title: Application web Vingeanne Transports
-        content: Création d'une application web avec le framework Symfony dans le cadre de mon stage à Vingeanne Transports facilitant la gestion de commandes d'une entreprice tierce. <br><br>⚠️ Étant une application réservée à une entreprise, le code source n'est pas disponible, veuillez me contacter si vous désirez une démonstration de celle ci.
+        content: Création d'une application web avec le framework Symfony dans le cadre de mon stage à Vingeanne Transports facilitant la gestion de commandes d'une entreprice tierce. ⚠️ Étant une application réservée à une entreprise, le code source n'est pas disponible, veuillez me contacter si vous désirez une démonstration de celle ci.
         image: /images/projects/rouillon1.png
         # featured:
         #   name: Demo
@@ -267,7 +267,7 @@ params:
         image: /images/projects/imgProjetUnity.png
         featured:
           name: Télécharger l'apk
-          link: <a href="VRFinal.apk" download>
+          link: /VRFinal.apk
         badges:
           - "C#"
           - "Unity"
