@@ -42,7 +42,7 @@ markup:
 
 params:
   title: "Portfolio BLANCHARD"
-  description: Text about my cool site
+  description: Ancien étudiant en informatique désormais en reconversion dans le but de devenir comédien
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
