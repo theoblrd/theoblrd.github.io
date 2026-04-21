@@ -113,9 +113,9 @@ params:
     enable: true
     intro: "Bonjour, je suis"
     title: "Théo BLANCHARD"
-    subtitle: "Ancien étudiant en informatique désormais reconversion dans le but de devenir comédien"
+    subtitle: "Ancien étudiant en informatique désormais en reconversion dans le but de devenir comédien"
     content: ""
-    image: /public/images/theophoto.jpg
+    image: /images/theophoto.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -191,7 +191,7 @@ params:
           Dans cette entreprise, j'ai pu effectuer différentes opérations de maintenance informatique ainsi que de l'installation et de la mise en place d'ordinateurs pour leur vente.
 
 
-  # Formation
+  # Education
   education:
     enable: true
     # title: "Custom Name"
