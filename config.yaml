@@ -194,7 +194,7 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: "Formations"
     index: false
     items:
       - title: "3ème année de BUT Informatique"
