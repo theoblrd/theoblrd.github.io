@@ -113,9 +113,9 @@ params:
     enable: true
     intro: "Bonjour, je suis"
     title: "Théo BLANCHARD"
-    subtitle: "Etudiant de 2ème année de BTS SIO option SLAM,"
-    content: "Je suis convaincu que ma passion pour le développement et mon désir d’apprendre me permettront de contribuer positivement à votre entreprise. N’hésitez pas à me contacter pour découvrir mes projets et compétences"
-    image: https://www.imagine-developpement.net/photos_site/1620392765fiche-metier-analyste-programmeur-programeuse.jpg
+    subtitle: "Ancien étudiant en informatique désormais reconversion dans le but de devenir comédien"
+    content: ""
+    image: /public/images/theophoto.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -129,18 +129,18 @@ params:
   # About
   about:
     enable: true
-    title: "A propos"
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/69/Lyc%C3%A9e_Bouchardon_-_Chaumont.jpg"
+    title: "À propos"
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/11/Saint-Di%C3%A9-des-Vosges%2C_b%C3%A2timent_principal_de_l%27IUT%2C_f%C3%A9vrier_2021.jpg"
     content: |-
-      Je suis actuellement étudiant en BTS SIO2 (Services Informatiques aux Organisations) en option SLAM (Solution Logiciel et Application Métiers) au lycée Edmé BOUCHARDON. Cette formation de deux ans m’a permis d’acquérir des compétences solides en développement de logiciels.
+      Ancien étudiant sortant d'un BUT Informatique, je suis actuellement en reconversion dans le domaine théâtral, j’ai récemment effectué un stage de théâtre et cinéma au Cours Florent et ait été admis à l'école, j’ai pu développer des compétences en interprétation et en expression scénique. Passionné par le doublage, je m’intéresse particulièrement au travail de la voix et aux différentes interprétation de personnages, désireux d'en faire mon métier.
 
-        Voici avec quelles technologies je travaille:
+        Voici avec quelles technologies j'ai pu travailler par le passé:
     
+        - "C#"
         - "HTML"
         - "CSS"
-        - "JavaScript"
-        - "React"
-        - "C#"
+        - "MySQL"
+        - "Unity"
         - "Jira"
 
   # Experience
@@ -148,6 +148,16 @@ params:
     enable: true
     title: Expériences
     items:
+      - job: "Développement d'une application web Symfony"
+        company: "Vingeanne Transports"
+        companyUrl: "https://www.vingeanne-transports.com/"
+        date: "2025"
+        featuredLink:
+          enable: false
+        content: "Avec l'aide d'autres développeurs, j'ai réaliser une application web sur le framework Symfony qui servira à faciliter différentes démarches chronophages pour une société de transport."
+        info:
+          enable: false    
+
       - job: "Refonte d'interface graphique"
         company: "Tempora"
         companyUrl: "https://tempora.fr"
@@ -177,36 +187,35 @@ params:
           enable: false
         featuredLink:
           enable: false
-          url: "https://example.com"
         content: |
           Dans cette entreprise, j'ai pu effectuer différentes opérations de maintenance informatique ainsi que de l'installation et de la mise en place d'ordinateurs pour leur vente.
 
 
-  # Education
+  # Formation
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "BTS-SIO option SLAM (en cours)"
+      - title: "3ème année de BUT Informatique"
+        school:
+          name: "I.U.T. de Saint-Dié, 88100 SAINT-DIÉ DES VOSGES"
+          url: "https://iutsd.univ-lorraine.fr/"
+        date: "2024 - 2025"
+        
+            
+      - title: "BTS-SIO option SLAM"
         school:
           name: "Lycée Edmé-Bouchardon, 52000 CHAUMONT"
           url: "https://lyc-bouchardon.monbureaunumerique.fr/"
         date: "2022 - 2024"
-        
-            
+
+          
       - title: "Bac Pro Systèmes Numériques (Mention Assez Bien)"
         school:
           name: "Lycée Professionnel Eugène Decomble, 52000 CHAUMONT"
-          url: "https://example.org"
+          url: "https://lyc-decomble.monbureaunumerique.fr/"
         date: "2020 - 2021"
-
-          
-      - title: "Brevet d’Études Professionnel"
-        school:
-          name: "Lycée Professionnel Eugène Decomble, 52000 CHAUMONT."
-          url: "https://example.org"
-        date: "2019 - 2020"
 
   # Achievements
   achievements:
@@ -235,36 +244,38 @@ params:
     enable: true
     title: Projets
     items:
-      - title: Portfolio Hugo
-        content: Un portfolio numérique customisable réalisé sous Linux et grâce à Github sous le template Hugo.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: Application web Vingeanne Transports
+        content: Création d'une application web avec le framework Symfony dans le cadre de mon stage à Vingeanne Transports facilitant la gestion de commandes d'une entreprice tierce.
+      ⚠️ Étant une application réservée à une entreprise, le code source n'est pas disponible, veuillez me contacter si vous désirez une démonstration de celle ci.
+        image: /images/projects/rouillon1.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Bordereau
-        content: Une application web permettant de réaliser un bordereau en ligne grâce à des informations en ligne inscrites au préalable dans une base de données et que l'on pourra ensuite enregistrer en .pdf 
-        image: /images/projects/rattbordereau.png
-        featured:
-        badges:
-          - "HTML5"
-          - "CSS"
+          - "Symfony"
           - "PHP"
+          - "MySQL"
+        # links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/hugo-profile
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Unity Infiniment Grand VR
+        content: Un projet réalisé sur Unity qui montre différents objets à regarder en réalité virtuelle partant de la taille humaine allant jusqu'à l'infiniment grand 
+        image: /images/projects/imgProjetUnity.png
+        featured:
+          name: Télécharger l'apk
+          link: <a href="VRFinal.apk" download>
+        badges:
+          - "C#"
+          - "Unity"
 
 
       - title: GestionFamilles
-        content: Un logiciel réalise en C# servant à ajouter, consulter, modifier et supprimer des Familles, Enfants et Médecins dont leur données sont hébergés dans une base de données.
+        content: Un logiciel réalisé en C# servant à ajouter, consulter, modifier et supprimer des Familles, Enfants et Médecins dont leur données sont hébergés dans une base de données.
         image: /images/projects/imgProjet1.png
         badges:
           - "C#"
