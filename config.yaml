@@ -124,6 +124,14 @@ params:
       name: "CV"
       url: "/CV THEO BLANCHARD.pdf"
       download: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/theoblchrd/
+        - icon: fab fa-tiktok
+          url: https://www.tiktok.com/@theoblchrd
+        - icon: fab fa-x-twitter
+          url: https://x.com/theoblrd
 
 
   # About
