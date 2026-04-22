@@ -199,7 +199,7 @@ params:
     items:
       - title: "Stage théâtre et cinéma (admis en 1ère année)"
         school:
-          name: "Cours Florent"
+          name: "Cours Florent (Stage effectué à Strasbourg)"
           url: "https://www.coursflorent.fr/"
         date: "Avril 2026"
 
@@ -211,7 +211,7 @@ params:
         date: "2024 - 2025"
         
             
-      - title: "BTS Services Informatiques aux Organisations option Solutions Logicielles Applications Métiers"
+      - title: "BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers"
         school:
           name: "Lycée Edmé-Bouchardon, 52000 CHAUMONT"
           url: "https://lyc-bouchardon.monbureaunumerique.fr/"
