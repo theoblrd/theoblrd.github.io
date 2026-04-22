@@ -197,6 +197,13 @@ params:
     title: "Formations"
     index: false
     items:
+      - title: "Stage théâtre et cinéma (admis en 1ère année)"
+        school:
+          name: "Cours Florent"
+          url: "https://www.coursflorent.fr/"
+        date: "Avril 2026"
+
+
       - title: "3ème année de BUT Informatique"
         school:
           name: "I.U.T. de Saint-Dié, 88100 SAINT-DIÉ DES VOSGES"
