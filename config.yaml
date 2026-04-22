@@ -151,6 +151,39 @@ params:
         - "Unity"
         - "Jira"
 
+  # Education
+  education:
+    enable: true
+    title: "Formations"
+    index: false
+    items:
+      - title: "Stage théâtre et cinéma (admis en 1ère année)"
+        school:
+          name: "Cours Florent (Stage effectué à Strasbourg)"
+          url: "https://www.coursflorent.fr/"
+        date: "Avril 2026"
+
+
+      - title: "3ème année de BUT Informatique"
+        school:
+          name: "I.U.T. de Saint-Dié, 88100 SAINT-DIÉ DES VOSGES"
+          url: "https://iutsd.univ-lorraine.fr/"
+        date: "2024 - 2025"
+        
+            
+      - title: "BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers"
+        school:
+          name: "Lycée Edmé-Bouchardon, 52000 CHAUMONT"
+          url: "https://lyc-bouchardon.monbureaunumerique.fr/"
+        date: "2022 - 2024"
+
+          
+      - title: "Bac Pro Systèmes Numériques (Mention Assez Bien)"
+        school:
+          name: "Lycée Professionnel Eugène Decomble, 52000 CHAUMONT"
+          url: "https://lyc-decomble.monbureaunumerique.fr/"
+        date: "2020 - 2021"
+
   # Experience
   experience:
     enable: true
@@ -197,40 +230,6 @@ params:
           enable: false
         content: |
           Dans cette entreprise, j'ai pu effectuer différentes opérations de maintenance informatique ainsi que de l'installation et de la mise en place d'ordinateurs pour leur vente.
-
-
-  # Education
-  education:
-    enable: true
-    title: "Formations"
-    index: false
-    items:
-      - title: "Stage théâtre et cinéma (admis en 1ère année)"
-        school:
-          name: "Cours Florent (Stage effectué à Strasbourg)"
-          url: "https://www.coursflorent.fr/"
-        date: "Avril 2026"
-
-
-      - title: "3ème année de BUT Informatique"
-        school:
-          name: "I.U.T. de Saint-Dié, 88100 SAINT-DIÉ DES VOSGES"
-          url: "https://iutsd.univ-lorraine.fr/"
-        date: "2024 - 2025"
-        
-            
-      - title: "BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers"
-        school:
-          name: "Lycée Edmé-Bouchardon, 52000 CHAUMONT"
-          url: "https://lyc-bouchardon.monbureaunumerique.fr/"
-        date: "2022 - 2024"
-
-          
-      - title: "Bac Pro Systèmes Numériques (Mention Assez Bien)"
-        school:
-          name: "Lycée Professionnel Eugène Decomble, 52000 CHAUMONT"
-          url: "https://lyc-decomble.monbureaunumerique.fr/"
-        date: "2020 - 2021"
 
   # Achievements
   achievements:
